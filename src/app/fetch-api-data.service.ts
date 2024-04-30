@@ -61,7 +61,7 @@ export class FetchApiDataService {
       .pipe(map(this.extractResponseData), catchError(this.handleError));
   }
 
-  // Making the api call for the Get Director endpoint
+  // Making the api call for the Director endpoint
   // public getDirector(director: string): Observable<any> {
   //   const token = localStorage.getItem('token');
   //   console.log(director);
@@ -82,7 +82,7 @@ export class FetchApiDataService {
   //     );
   // }
 
-  // Making the api call for the Get Genre endpoint
+  // Making the api call for the Genre endpoint
   // public getGenre(genreName: string): Observable<any> {
   //   const token = localStorage.getItem('token');
   //   return this.http
